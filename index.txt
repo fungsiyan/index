@@ -49,7 +49,7 @@
 • [Gserver (Python)](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>)
 • [Package (Win)](<https://www.nuget.org/packages/Preagonal.Scripting.GS2Engine>) & [Launcher](<https://github.com/xtjoeytx/glauncher>) | [Compiler (Linux)](<https://github.com/MorenoLand/Moreno.Ginstaller>)
 
-• [ReClients](<https://github.com/vinvicta/gsuite/tree/main/Clients>)
+• [ReClients](<https://github.com/vinvicta/gsuite>)
 • [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>)
 • [GS2 Parser](<https://github.com/xtjoeytx/gs2-parser>)
 

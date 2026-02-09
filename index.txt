@@ -1,3 +1,5 @@
+# <:wbomb1:1002809437196652544> [Graal Resources List](<https://fungsiyan.github.io/index>) ([Source](<https://github.com/fungsiyan/index>)) <:wbowi1:1002809438173921330>
+
 ## — 📚 Documentation —
 **• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)
 • [Gscript Definitions](<https://docs.gscript.dev>)

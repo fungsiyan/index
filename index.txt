@@ -53,7 +53,7 @@
 • [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>)
 • [GS2 Parser](<https://github.com/xtjoeytx/gs2-parser>)
 
-• [Graal File Formats](<https://zone.dog/braindump/graal>) + [.nw Parser](<https://github.com/Aeva/nw-converter>)
+• [Graal File Formats](<https://zone.dog/braindump/graal>)
 • [API (Denveous)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>)
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>)
 

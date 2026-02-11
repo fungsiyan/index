@@ -35,7 +35,7 @@
 **
 
 ## — 🎨 Graphics Assets —
-**• [Templates](<https://github.com/fungsiyan/templates>) & [Tiles](<https://github.com/fungsiyan/tiles>)
+**• [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>)
 • [Graphics Previewer](<https://fungsiyan.github.io/previewer>), [Source](<https://github.com/fungsiyan/previewer>)
 • [Indexing Guide (PS/GIMP)](<https://gscript.dev/?indexing>)
 **

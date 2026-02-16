@@ -14,8 +14,8 @@
 • [GS2 Beautifier](<https://gscript.dev/?beautify>)
 • [Gscript Pastebin](<https://paste.gscript.dev>)
 
-• [GS2 Definitions (Bot/LSP Data)](<https://api.gscript.dev>)
-• [Sublime Highlighting (Denveous)](<https://github.com/Denveous/gscript-sublime-hl>)
+• [GS2 API (Bot/LSP Data)](<https://api.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.APIData>)
+• [Sublime Highlighting (Denveous)](<https://github.com/MorenoLand/Moreno.SublimeLSP>)
 • [VSCode Highlighting (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>), [Source](<https://github.com/RuanFernandes/graalscript-hl>)
 • [VSCode Highlighting (Maxy)](<https://gscript.dev/graal-language-0.0.1.vsix>)
 
@@ -46,7 +46,7 @@
 • [Server Statistics (Reborn)](<https://www.graalserver.com/servers.php>)
 
 • [Gserver (C++)](<https://github.com/xtjoeytx/GServer-v2/releases>)
-• [Gserver (Rust)](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>)
+• [Gserver (Rust)](<https://github.com/vinvicta/gserver-rs>)     , [Client](<https://github.com/Preagonal/preagonal-client-rs>)
 • [Gserver (Python)](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>)
 • [Package (Win)](<https://www.nuget.org/packages/Preagonal.Scripting.GS2Engine>) & [Launcher](<https://github.com/xtjoeytx/glauncher>) | [Compiler (Linux)](<https://github.com/MorenoLand/Moreno.Ginstaller>)
 
@@ -58,7 +58,6 @@
 • [API (Denveous)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>)
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>)
 
-• [Bytecode VM (Geyser II)](<https://github.com/Preagonal/Preagonal.Scripting.GS2Engine>)
 • [Gs2BT (Rust)](<https://gbf-rs.netlify.app>), [Source](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>)
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>)
 

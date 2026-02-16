@@ -58,7 +58,7 @@
 • [API (Denveous)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>)
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>)
 
-• [Gs2BT (Rust)](<https://gbf-rs.netlify.app>), [Source](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>)
+• [Gs2BT (Rust)](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>)
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>)
 
 • Hosting (Docker):**

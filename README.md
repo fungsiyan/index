@@ -18,18 +18,18 @@
 • [VSCode Highlighting (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>), [Source](<https://github.com/RuanFernandes/graalscript-hl>) \
 • [VSCode Highlighting (Maxy)](<https://gscript.dev/graal-language-0.0.1.vsix>)
 
-• [RC3 Light (Win)](<https://gscript.dev/rc_win.zip>) , [Mirror (fp4)](http://fp4.ca/windows_rc3_beta.zip) | [RC3 Dark (Win)](<https://gscript.dev/rc3_win_dark.zip>) \
+• [RC3 Light (Win)](<https://gscript.dev/rc_win.zip>), [Mirror (fp4)](http://fp4.ca/windows_rc3_beta.zip) | [RC3 Dark (Win)](<https://gscript.dev/rc3_win_dark.zip>) \
 • [RC3 Light (Mac)](<https://gscript.dev/rc_mac.zip>), [Mirror (fp4)](<http://fp4.ca/RC.app.zip>) | [RC3 Dark (Mac)](<https://gscript.dev/rc_mac_dark.zip>)
 
 • [Geditor (Web; β) (Pluto)](<https://geditor.net/>) \
-• [Gani Editor (Web)     (Denveous)](<https://gani.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.GaniEditor>) \
-• [Geditor (Win)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>) | [Geditor (Linux)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>)  , [Source (39ster)](<https://github.com/lukegrahamSydney/TilesEditor>) \
+• [Gani Editor (Web) (Denveous)](<https://gani.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.GaniEditor>) \
+• [Geditor (Win)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>) | [Geditor (Linux)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>), [Source (39ster)](<https://github.com/lukegrahamSydney/TilesEditor>) \
 • [setshape Generator (Denveous)](<https://setshape.gscript.dev>), [Source](<https://github.com/Denveous/setshape2editor>) \
-• [gmap Generator        (Denveous)](<https://gmap.gscript.dev>), [Source](<https://github.com/Denveous/gmapgenerator>)
+• [gmap Generator (Denveous)](<https://gmap.gscript.dev>), [Source](<https://github.com/Denveous/gmapgenerator>)
 
 ## — 🗜️ Tools Archive —
 • [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>) \
-• [RC2 Light (Win)](<https://gscript.dev/rc2_win_light.zip>)    | [RC2 Dark (Win)](<https://gscript.dev/rc2_win_dark.zip>) \
+• [RC2 Light (Win)](<https://gscript.dev/rc2_win_light.zip>) | [RC2 Dark (Win)](<https://gscript.dev/rc2_win_dark.zip>) \
 • [RC2 Light (Linux)](<https://gscript.dev/rc2_light.AppImage>) | [RC2 Dark (Linux)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2] \
 • [Gonstruct (Win)](<https://gscript.dev/gonstruct-win.zip>) | [Gonstruct (Linux)](<https://gscript.dev/gonstruct-linux-x64.zip>), [Source](<https://github.com/fry/graal-gonstruct>)
 
@@ -43,7 +43,7 @@
 • [Server Statistics (Reborn)](<https://www.graalserver.com/servers.php>)
 
 • [Gserver (C++)](<https://github.com/xtjoeytx/GServer-v2/releases>) \
-• [Gserver (Rust)](<https://github.com/vinvicta/gserver-rs>)     , [Client](<https://github.com/Preagonal/preagonal-client-rs>) \
+• [Gserver (Rust)](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>) \
 • [Gserver (Python)](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>) \
 • [Package (Win)](<https://www.nuget.org/packages/Preagonal.Scripting.GS2Engine>) & [Launcher](<https://github.com/xtjoeytx/glauncher>) | [Compiler (Linux)](<https://github.com/MorenoLand/Moreno.Ginstaller>)
 

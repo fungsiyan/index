@@ -1,16 +1,16 @@
 # [Graal Resources List](<https://fungsiyan.github.io/index>) ([Source](<https://github.com/fungsiyan/index>))
 
 ## — 📚 Documentation —
-**• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)
+• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)
 • [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
 • [Gscript Definitions](<https://docs.gscript.dev>)
 • [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)
 • [Quattro3D Docs](<https://unity.gscript.dev>)
 • [Server Statistics](<https://stats.gscript.dev>)
-**
+
 
 ## — 🛠️ Tools —
-**• [GS2 Emulator (Web)](<https://gs2.gscript.dev>), [Mirror](<https://gs2emu.infinityfree.me>)
+• [GS2 Emulator (Web)](<https://gs2.gscript.dev>), [Mirror](<https://gs2emu.infinityfree.me>)
 • [GS2 Beautifier](<https://gscript.dev/?beautify>)
 • [Gscript Pastebin](<https://paste.gscript.dev>)
 
@@ -26,23 +26,22 @@
 • [Geditor (Win)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>) | [Geditor (Linux)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>)  , [Source (39ster)](<https://github.com/lukegrahamSydney/TilesEditor>)
 • [setshape Generator (Denveous)](<https://setshape.gscript.dev>), [Source](<https://github.com/Denveous/setshape2editor>)
 • [gmap Generator        (Denveous)](<https://gmap.gscript.dev>), [Source](<https://github.com/Denveous/gmapgenerator>)
-**
 
 ## — 🗜️ Tools Archive —
-**• [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>)
+• [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>)
 • [RC2 Light (Win)](<https://gscript.dev/rc2_win_light.zip>)    | [RC2 Dark (Win)](<https://gscript.dev/rc2_win_dark.zip>)
 • [RC2 Light (Linux)](<https://gscript.dev/rc2_light.AppImage>) | [RC2 Dark (Linux)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2]
 • [Gonstruct (Win)](<https://gscript.dev/gonstruct-win.zip>) | [Gonstruct (Linux)](<https://gscript.dev/gonstruct-linux-x64.zip>), [Source](<https://github.com/fry/graal-gonstruct>)
-**
+
 
 ## — 🎨 Graphics Assets —
-**• [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>)
+• [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>)
 • [Graphics Previewer](<https://fungsiyan.github.io/previewer>), [Source](<https://github.com/fungsiyan/previewer>)
 • [Indexing Guide (PS/GIMP)](<https://gscript.dev/?indexing>)
-**
+
 
 ## — 🪢 Server Hosting —
-**• [Account Creation](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>)
+• [Account Creation](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>)
 • [Server Statistics (Reborn)](<https://www.graalserver.com/servers.php>)
 
 • [Gserver (C++)](<https://github.com/xtjoeytx/GServer-v2/releases>)
@@ -61,7 +60,7 @@
 • [Gs2BT (Rust)](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>)
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>)
 
-• Hosting (Docker):**
+• Hosting (Docker):
 ```
 docker pull xtjoeytx/gserver-v2:latest
 docker run -d -p 14900:14900 xtjoeytx/gserver-v2:latest \

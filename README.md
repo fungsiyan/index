@@ -1,4 +1,4 @@
-# [Graal Resources List](<https://fungsiyan.github.io/index>) ([Source](<https://github.com/fungsiyan/index>))
+# Graal Resources List
 
 ## — 📚 Documentation —
 • [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>) \

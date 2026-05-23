@@ -21,9 +21,9 @@
 • [RC3 Light (Win)](<https://gscript.dev/rc_win.zip>) , [Mirror (fp4)](http://fp4.ca/windows_rc3_beta.zip) | [RC3 Dark (Win)](<https://gscript.dev/rc3_win_dark.zip>) \
 • [RC3 Light (Mac)](<https://gscript.dev/rc_mac.zip>), [Mirror (fp4)](<http://fp4.ca/RC.app.zip>) | [RC3 Dark (Mac)](<https://gscript.dev/rc_mac_dark.zip>)
 
+• [Geditor (Web; β) (Pluto)](<https://geditor.net/>) \
 • [Gani Editor (Web)     (Denveous)](<https://gani.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.GaniEditor>) \
 • [Geditor (Win)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>) | [Geditor (Linux)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>)  , [Source (39ster)](<https://github.com/lukegrahamSydney/TilesEditor>) \
-• [Geditor (β; Pluto)](<https://geditor.net/>) \
 • [setshape Generator (Denveous)](<https://setshape.gscript.dev>), [Source](<https://github.com/Denveous/setshape2editor>) \
 • [gmap Generator        (Denveous)](<https://gmap.gscript.dev>), [Source](<https://github.com/Denveous/gmapgenerator>)
 

@@ -1,13 +1,12 @@
 # [Graal Resources List](<https://fungsiyan.github.io/index>) ([Source](<https://github.com/fungsiyan/index>))
 
 ## — 📚 Documentation —
-• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)
+• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>) \
 • [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
 • [Gscript Definitions](<https://docs.gscript.dev>)
 • [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)
 • [Quattro3D Docs](<https://unity.gscript.dev>)
 • [Server Statistics](<https://stats.gscript.dev>)
-
 
 ## — 🛠️ Tools —
 • [GS2 Emulator (Web)](<https://gs2.gscript.dev>), [Mirror](<https://gs2emu.infinityfree.me>)
@@ -33,12 +32,10 @@
 • [RC2 Light (Linux)](<https://gscript.dev/rc2_light.AppImage>) | [RC2 Dark (Linux)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2]
 • [Gonstruct (Win)](<https://gscript.dev/gonstruct-win.zip>) | [Gonstruct (Linux)](<https://gscript.dev/gonstruct-linux-x64.zip>), [Source](<https://github.com/fry/graal-gonstruct>)
 
-
 ## — 🎨 Graphics Assets —
 • [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>)
 • [Graphics Previewer](<https://fungsiyan.github.io/previewer>), [Source](<https://github.com/fungsiyan/previewer>)
 • [Indexing Guide (PS/GIMP)](<https://gscript.dev/?indexing>)
-
 
 ## — 🪢 Server Hosting —
 • [Account Creation](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>)

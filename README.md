@@ -1,61 +1,61 @@
 # Graal Resources List
 
 ## — 📚 Documentation —
-<br>• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)  
-<br>• [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
-• [Gscript Definitions](<https://docs.gscript.dev>)
-• [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)
-• [Quattro3D Docs](<https://unity.gscript.dev>)
+• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)\
+• [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)\
+• [Gscript Definitions](<https://docs.gscript.dev>)\
+• [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)\
+• [Quattro3D Docs](<https://unity.gscript.dev>)\
 • [Server Statistics](<https://stats.gscript.dev>)
 
 ## — 🛠️ Tools —
-• [GS2 Emulator (Web)](<https://gs2.gscript.dev>), [Mirror](<https://gs2emu.infinityfree.me>) \
-• [GS2 Beautifier](<https://gscript.dev/?beautify>) \
+• [GS2 Emulator (Web)](<https://gs2.gscript.dev>), [Mirror](<https://gs2emu.infinityfree.me>)\
+• [GS2 Beautifier](<https://gscript.dev/?beautify>)\
 • [Gscript Pastebin](<https://paste.gscript.dev>)
 
-• [GS2 API (Bot/LSP Data)](<https://api.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.APIData>) \
-• [Sublime Highlighting (Denveous)](<https://github.com/MorenoLand/Moreno.SublimeLSP>) \
-• [VSCode Highlighting (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>), [Source](<https://github.com/RuanFernandes/graalscript-hl>) \
+• [GS2 API (Bot/LSP Data)](<https://api.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.APIData>)\
+• [Sublime Highlighting (Denveous)](<https://github.com/MorenoLand/Moreno.SublimeLSP>)\
+• [VSCode Highlighting (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>), [Source](<https://github.com/RuanFernandes/graalscript-hl>)\
 • [VSCode Highlighting (Maxy)](<https://gscript.dev/graal-language-0.0.1.vsix>)
 
-• [RC3 Light (Win)](<https://gscript.dev/rc_win.zip>), [Mirror (fp4)](http://fp4.ca/windows_rc3_beta.zip) | [RC3 Dark (Win)](<https://gscript.dev/rc3_win_dark.zip>) \
+• [RC3 Light (Win)](<https://gscript.dev/rc_win.zip>), [Mirror (fp4)](http://fp4.ca/windows_rc3_beta.zip) | [RC3 Dark (Win)](<https://gscript.dev/rc3_win_dark.zip>)\
 • [RC3 Light (Mac)](<https://gscript.dev/rc_mac.zip>), [Mirror (fp4)](<http://fp4.ca/RC.app.zip>) | [RC3 Dark (Mac)](<https://gscript.dev/rc_mac_dark.zip>)
 
-• [Geditor (Web; β) (Pluto)](<https://geditor.net/>) \
-• [Gani Editor (Web) (Denveous)](<https://gani.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.GaniEditor>) \
-• [Geditor (Win)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>) | [Geditor (Linux)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>), [Source (39ster)](<https://github.com/lukegrahamSydney/TilesEditor>) \
-• [setshape Generator (Denveous)](<https://setshape.gscript.dev>), [Source](<https://github.com/Denveous/setshape2editor>) \
+• [Geditor (Web; β) (Pluto)](<https://geditor.net/>)\
+• [Gani Editor (Web) (Denveous)](<https://gani.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.GaniEditor>)\
+• [Geditor (Win)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>) | [Geditor (Linux)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>), [Source (39ster)](<https://github.com/lukegrahamSydney/TilesEditor>)\
+• [setshape Generator (Denveous)](<https://setshape.gscript.dev>), [Source](<https://github.com/Denveous/setshape2editor>)\
 • [gmap Generator (Denveous)](<https://gmap.gscript.dev>), [Source](<https://github.com/Denveous/gmapgenerator>)
 
 ## — 🗜️ Tools Archive —
-• [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>) \
-• [RC2 Light (Win)](<https://gscript.dev/rc2_win_light.zip>) | [RC2 Dark (Win)](<https://gscript.dev/rc2_win_dark.zip>) \
-• [RC2 Light (Linux)](<https://gscript.dev/rc2_light.AppImage>) | [RC2 Dark (Linux)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2] \
+• [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>)\
+• [RC2 Light (Win)](<https://gscript.dev/rc2_win_light.zip>) | [RC2 Dark (Win)](<https://gscript.dev/rc2_win_dark.zip>)\
+• [RC2 Light (Linux)](<https://gscript.dev/rc2_light.AppImage>) | [RC2 Dark (Linux)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2]\
 • [Gonstruct (Win)](<https://gscript.dev/gonstruct-win.zip>) | [Gonstruct (Linux)](<https://gscript.dev/gonstruct-linux-x64.zip>), [Source](<https://github.com/fry/graal-gonstruct>)
 
 ## — 🎨 Graphics Assets —
-• [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>) \
-• [Graphics Previewer](<https://fungsiyan.github.io/previewer>), [Source](<https://github.com/fungsiyan/previewer>) \
+• [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>)\
+• [Graphics Previewer](<https://fungsiyan.github.io/previewer>), [Source](<https://github.com/fungsiyan/previewer>)\
 • [Indexing Guide (PS/GIMP)](<https://gscript.dev/?indexing>)
 
 ## — 🪢 Server Hosting —
-• [Account Creation](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>) \
+• [Account Creation](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>)\
 • [Server Statistics (Reborn)](<https://www.graalserver.com/servers.php>)
 
-• [Gserver (C++)](<https://github.com/xtjoeytx/GServer-v2/releases>) \
-• [Gserver (Rust)](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>) \
-• [Gserver (Python)](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>) \
+• [Gserver (C++)](<https://github.com/xtjoeytx/GServer-v2/releases>)\
+• [Gserver (Rust)](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>)\
+• [Gserver (Python)](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>)\
 • [Package (Win)](<https://www.nuget.org/packages/Preagonal.Scripting.GS2Engine>) & [Launcher](<https://github.com/xtjoeytx/glauncher>) | [Compiler (Linux)](<https://github.com/MorenoLand/Moreno.Ginstaller>)
 
-• [ReClients](<https://github.com/vinvicta/gsuite>) \
-• [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>) \
+• [ReClients](<https://github.com/vinvicta/gsuite>)\
+• [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>)\
 • [GS2 Parser](<https://github.com/xtjoeytx/gs2-parser>)
 
-• [Graal File Formats](<https://zone.dog/braindump/graal>) \
-• [API (Denveous)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>) \
+• [Graal File Formats](<https://zone.dog/braindump/graal>)\
+• [API (Denveous)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>)\
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>)
 
-• [Gs2BT (Rust)](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>) \
+• [Gs2BT (Rust)](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>)\
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>)
 
 • Hosting (Docker):

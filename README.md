@@ -1,12 +1,12 @@
 # Graal Resources List
 
 ## — 📚 Documentation —
-• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)
-\ • [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
-\• [Gscript Definitions](<https://docs.gscript.dev>)
-\• [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)
-\• [Quattro3D Docs](<https://unity.gscript.dev>)
-\• [Server Statistics](<https://stats.gscript.dev>)
+• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)  
+• [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
+• [Gscript Definitions](<https://docs.gscript.dev>)
+• [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)
+• [Quattro3D Docs](<https://unity.gscript.dev>)
+• [Server Statistics](<https://stats.gscript.dev>)
 
 ## — 🛠️ Tools —
 • [GS2 Emulator (Web)](<https://gs2.gscript.dev>), [Mirror](<https://gs2emu.infinityfree.me>) \

@@ -1,8 +1,8 @@
 # Graal Resources List
 
 ## — 📚 Documentation —
-• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)  
-• [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
+<br>• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>)  
+<br>• [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>)
 • [Gscript Definitions](<https://docs.gscript.dev>)
 • [GS2 Docs (Ruan)](<https://gsdocs.ruanfergui.com.br>)
 • [Quattro3D Docs](<https://unity.gscript.dev>)

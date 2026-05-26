@@ -1,8 +1,10 @@
+/* Typography */
 @font-face {
     font-family: 'Tempus Sans ITC';
     src: url('https://gscript.dev/fonts/tempus-sans-itc.ttf');
 }
 
+/* Margination */
 body {
     font-size: 20px;
     font-weight: bolder;
@@ -28,6 +30,7 @@ body {
     margin-bottom: 8px;
 }
 
+/* Listing */
 ul {
     list-style-type: "•";
     margin-top: 10px;
@@ -37,6 +40,7 @@ ul {
 li        { margin-bottom: 8px; }
 li:before { content: ""; padding-right: 5px; }
 
+/* Highlighting */
 a:link    { color: #95ba97; transition: color 0.3s ease;}
 a:visited { color: #5d9660; transition: color 0.3s ease;}
 a:active  { color: #435b44; }

@@ -14,17 +14,14 @@ nav  { margin-left: 30px; }
 h3   { font-size: 24px; margin-bottom: 10px; }
 .subtitle  { font-size: 16px; }
 .container {
-    font-size: 16px;
-    font-family: "Arial";
     color: #fff;
     background-color: #2f303d;
-    display:inline-block;
+    font-family: "Arial";
+    font-size: 16px;
+    display: inline-block;
     border-radius: 5px;
-    padding-left: 26px;
-    padding-right: 26px;
-    margin-left: 8px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    padding: 20px;
+    margin: 12px;
 }
 .container br {
     margin-bottom: 8px;

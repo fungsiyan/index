@@ -1,0 +1,106 @@
+
+# GS2 Code Reading Guide
+
+This guide provides a mental model for reading and understanding GraalScript2 syntax. It translates common symbols and keywords into plain English concepts.
+
+---
+
+## Variables and Prefixes
+
+Variables are containers for data. Their prefix determines their scope and lifetime.
+
+| Syntax   | Read as                     | Meaning                                                               | Imagine / Example                                                 |
+| :------- | :-------------------------- | :-------------------------------------------------------------------- | :---------------------------------------------------------------- |
+| `temp.i` | "temporary i"               | A temporary variable that exists only within the current function.    | A scratchpad number. `temp.score = 100;`                          |
+| `this`   | "this object"               | The current script instance or context.                               | The script talking about itself. `this.x` → "My own X position."  |
+| `thiso`  | "the original object"       | The **original** script instance, ignoring `with()` blocks.           | "Who was I _before_ I started talking about this other object?"   |
+| `player` | "the player"                | The player object interacting with the script.                        | `player.chat` → "The player's chat message."                      |
+| `client` | "the player's client flags" | Data stored on the player's client that can be changed by the client. | A player's personal, unsecured settings. `client.showHud = true;` |
+| `server` | "the server's flags"        | Data stored globally on the server, accessible by all server scripts. | A server-wide announcement board. `server.eventActive = true;`    |
+| `params` | "the parameters"            | An array holding data passed into an event handler.                   | A letter with instructions. `params[0]` is the first instruction. |
+
+---
+
+## Operators
+
+Operators perform actions like comparison, assignment, and math.
+
+| Syntax             | Read as                          | Meaning                                                                                                              | Imagine / Example                                                                 |
+| :----------------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| `==`               | "is equal to"                    | **Comparison:** Checks if two values are the same.                                                                   | `if (player.account == "Ruan")` → "Is the player's account Ruan?"                 |
+| `=`                | "gets" or "is set to"            | **Assignment:** Gives a variable a new value.                                                                        | `this.score = 100;` → "This object's score gets the value 100."                   |
+| `!=`               | "is not equal to"                | **Comparison:** Checks if two values are different.                                                                  | `if (this.state != "idle")`                                                       |
+| `<`                | "is less than"                   | **Comparison:** Left value is smaller than right value.                                                              | `if (player.level < 5)`                                                           |
+| `>`                | "is greater than"                | **Comparison:** Left value is larger than right value.                                                               | `if (this.ammo > 0)`                                                              |
+| `.`                | "of" or "'s"                     | **Accessor:** Accesses a property or function of an object.                                                          | `player.chat` → "the chat of the player" or "the player's chat"                   |
+| `@`                | "plus" or "and"                  | **Concatenation:** Joins two strings together.                                                                       | `"Score: " @ this.score` → "The string 'Score: ' plus the score value."           |
+| `+`, `-`, `*`, `/` | "plus", "minus", etc.            | **Arithmetic:** Performs a math operation.                                                                           | `this.health = this.health - 10;`                                                 |
+| `%`                | "modulo" or "remainder of"       | **Arithmetic:** Returns the remainder after dividing the left value by the right value.                              | `temp.i % 2` → "The remainder when the counter is divided by 2." <br>`if (temp.i % 2 == 0)` → "If the counter is even." |
+| `&&`               | "and"                            | **Logical:** Checks if both conditions are true.                                                                     | `if (player.level > 10 && player.guild == "Knights")`                             |
+| `!`                | "not"                            | **Logical NOT:** Inverts a boolean value from true to false, or false to true.                                       | `if (!player.isdead)` → "If the player is **not** dead."                          |
+| `<=`               | "is less than or equal to"       | **Comparison:** Checks if the left value is smaller than or equal to the right value.                                | `if (player.level <= 10)`                                                         |
+| `>=`               | "is greater than or equal to"    | **Comparison:** Checks if the left value is larger than or equal to the right value.                                 | `if (this.ammo >= 1)`                                                             |
+| `+=`               | "add to" or "increase by"        | **Compound Assignment:** Adds the right value to the left variable. `x += 5;` is a shortcut for `x = x + 5;`.        | `this.score += 10;` → "Increase this object's score by 10."                       |
+| `-=`               | "subtract from" or "decrease by" | **Compound Assignment:** Subtracts the right value from the left variable. `x -= 5;` is a shortcut for `x = x - 5;`. | `this.health -= 10;` → "Decrease this object's health by 10."                     |
+| `++`               | "increment" or "add one"         | **Increment:** Increases a number variable by exactly 1. `i++;` is a shortcut for `i = i + 1;`.                      | `temp.i++;` → "Increase the counter by one."                                      |
+| `--`               | "decrement" or "subtract one"    | **Decrement:** Decreases a number variable by exactly 1. `i--;` is a shortcut for `i = i - 1;`.                      | `this.bombs--;` → "Subtract one bomb."                                            |
+| `&`                | "has flag"                       | **Bitwise AND:** Used to check if a specific flag is present in a number that represents multiple flags.             | `if ((keyModifiers & 4) != 0)` → "If the 'right mouse button' flag is present..." |
+| \|\|               | "or"                             | **Logical OR:** Checks if at least one of the conditions is true.                                                    | if (this.state == "frozen" \|\| this.state == "stunned")                          |
+
+---
+
+## Brackets and Braces
+
+These symbols are used for grouping code, accessing data, and defining lists. Their meaning is highly dependent on context.
+
+|Syntax|Read as|Meaning|Imagine / Example|
+|:--|:--|:--|:--|
+|`()`|"call with" or "group"|1. Executes a function. 2. Groups math/logic.|1. `echo("Hello")` → "Call echo with 'Hello'." 2. `(5 + 3) * 2` → "Do 5 plus 3 first."|
+|`[]`|"at index" or "at position"|**Indexer:** Accesses an element in an array by its numeric position.|`params[0]` → "The item at the first position (index 0) of the parameters."|
+|`{}` (after `if`, `for`, etc.)|"do the following"|**Code Block:** A group of instructions to execute together.|`if (true) { ... }` → "If this is true, then do this block of code."|
+|`{}` (in an assignment)|"a list containing"|**Array Literal:** Defines a new array with a list of items.|`temp.items = {"sword", "shield"};` → "A new list containing 'sword' and 'shield'."|
+
+---
+
+## Common Keywords and Patterns
+
+| Syntax       | Read as                                | Meaning                                                                                   | Imagine / Example                                                                      |
+| :----------- | :------------------------------------- | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
+| `function`   | "a procedure named"                    | Defines a named block of code that can be called.                                         | `function onCreated() { ... }` → "The procedure for when this object is created."      |
+| `if (...)`   | "if this is true..."                   | Executes code only if a condition is met.                                                 | `if (player.rupees > 100)`                                                             |
+| `else`       | "...otherwise..."                      | Executes code if the preceding `if` condition was false.                                  | `... else { player.chat = "Not enough!"; }`                                            |
+| `for (...)`  | "for each item..." or "repeat X times" | A loop that repeats a block of code.                                                      | `for (temp.i = 0; temp.i < 10; temp.i++)` → "Repeat 10 times."                         |
+| `with (...)` | "temporarily focus on"                 | Changes the context of `this` to another object.                                          | `with (findnpc("Guard")) { chat = "Halt!"; }` → "Focus on the Guard and make it talk." |
+| `new`        | "create a new"                         | Creates a new instance of a complex object, like a GUI control.                           | `new GuiWindowCtrl()` → "Create a new GUI Window."                                     |
+| `SPC`        | "space"                                | **String Concatenation:** A special keyword used to join two strings with a single space. | `"Hello" SPC "World"` → "Hello World"  <br>`echo("Welcome," SPC player.nick);`         |
+
+---
+
+## Control Flow Keywords
+
+| Syntax          | Read as                         | Meaning                                                                                                          | Imagine / Example                                                                                                                                                |
+| :-------------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `return`        | "stop and give back"            | **Exits a function.** Can optionally send a value back to whoever called the function.                           | `return this.health;` → "Stop this function and give back the health value." `return;` → "Stop this function now and give back nothing."                         |
+| `break`         | "break out of the loop"         | **Immediately exits** the current `for` or `while` loop.                                                         | `for (temp.i=0; i<items.size(); i++) { if (items[i] == "key") { break; } }` → "Stop searching once you find the key."                                            |
+| `continue`      | "skip to the next one"          | **Skips the rest of the current loop iteration** and immediately starts the next one.                            | `for (temp.i=0; i<players.size(); i++) { if (players[i].isadmin) { continue; } ... }` → "If the player is an admin, ignore them and move on to the next player." |
+| `switch`        | "check this value..."           | A control statement that compares a value against a series of `case` labels.                                     | `switch (params[0]) { ... }` → "Check the first parameter..."                                                                                                    |
+| `case`          | "...if it's this..."            | A label within a `switch` block. If the `switch` value matches the `case` value, the code inside it is executed. | `case "warp": { ... }` → "...if it's the word 'warp', then do this..."                                                                                           |
+| `null`          | "nothing" or "empty"            | A special value representing the intentional absence of any object value.                                        | `this.target = null;` → "This object has no target."                                                                                                             |
+| `else if (...)` | "otherwise, if this is true..." | **Chained Condition:** Checks a new condition only if the previous `if` was false.                               | `if (x==1) { ... } else if (x==2) { ... }`                                                                                                                       |
+| `while (...)`   | "while this stays true..."      | **Loop:** Repeats a block of code as long as its condition remains true.                                         | `while (this.health > 0) { ... }` → "Keep doing this as long as my health is above zero."                                                                        |
+
+---
+
+## Core Concepts
+
+| Concept                         | Read as                            | Meaning                                                                                                                      | Imagine / Example                                                                                                           |
+| :------------------------------ | :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| `true` / `false`                | "true" / "false"                   | **Boolean Literals:** The two fundamental values of logic, representing "yes" and "no".                                      | `this.isReady = true;` → "This object is now ready."                                                                        |
+| Function Return Value           | "gives back"                       | A function can perform a task and **return a value** to the code that called it.                                             | `temp.found = isObject("MyWindow");` → "Ask if 'MyWindow' exists, and put the true/false answer into `temp.found`."         |
+| Event-Specific `params`         | "the event's data"                 | The meaning of `params[0]`, `params[1]`, etc., **depends entirely on which event is firing**.                                | `onKeyPressed`: `params[0]` is the key code. `onActionServerSide`: `params[0]` is the command name.                         |
+| Method Call vs. Property Access | "do something" vs. "get something" | A dot `.` followed by parentheses `()` is a **method call** (an action). A dot without them is a **property access** (data). | `this.hide();` → "Tell this object to hide itself." `this.visible = false;` → "Set this object's visibility data to false." |
+| `//`                            | "ignore this"                      | **Comment:** A note for humans. The engine completely ignores anything on a line after `//`.                                 | `// TODO: Fix this later`                                                                                                   |
+| `/* ... */`                     | "ignore this block"                | **Multi-line Comment:** The engine ignores everything between `/*` and `*/`.                                                 | /* This is a multi-line comment. <br>I can write notes here across several lines. */                                        |
+
+---
+

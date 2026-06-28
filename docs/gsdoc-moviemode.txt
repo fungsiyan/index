@@ -1,0 +1,169 @@
+GraalShop.exe - Movie Mode Reverse Engineered Spec
+Source: GraalShop.exe decompiled via Ghidra (serializeGANI + FUN_00477eb8 parser)
+============================================================================================
+
+FILE FORMAT
+-----------
+GANI0001 = sprite mode  (struct+0x20 == 0)
+GANI0002 = movie mode   (struct+0x20 != 0)
+
+FRAMES <n>        - total frame count, default 100 (struct+0x24), written ONLY in movie mode
+SINGLEDIRECTION   - written ONLY in sprite mode (never in movie mode)
+
+Shared header keywords (both modes):
+  LOOPED
+  CONTINUOUS
+  BACKCOLOR #RRGGBB   (skip if value == 0x8000)
+  SETBACKTO <name>
+  DEFAULTHEAD <name>
+  DEFAULTBODY <name>
+  DEFAULTPARAM1..9 <value>   (1-based, skip if empty)
+  DEFAULTATTR1..30 <value>   (1-based, skip if empty)
+
+
+SPRITE LINE FORMAT
+------------------
+SPRITE <id> <name> <x> <y> <w> <h> [<comment>]
+- All numeric fields (id, x, y, w, h) zero-padded to minimum 4 chars
+- Comment is 7th optional token
+
+
+ATTACHSPRITE FORMAT
+-------------------
+Written after sprite list, before effects block:
+  ATTACHSPRITE  <parentId> <childId> <offsetX> <offsetY>   // type 0
+  ATTACHSPRITE2 <parentId> <childId> <offsetX> <offsetY>   // type 1
+
+
+PER-SPRITE EFFECTS (written between sprites and SCRIPT, apply in both modes)
+------------------------------------------------------------------------------
+Only written if non-default:
+
+  COLOREFFECT    <spriteId> <r> <g> <b> <a>   - 4 doubles; skip if all == 0.0
+  ZOOMEFFECT     <spriteId> <scale>             - double;    skip if == 0.0
+  EFFECTMODE     <spriteId> <mode>              - int;       skip if == 0
+  ROTATEEFFECT   <spriteId> <degrees>           - double;    skip if == 0.0
+  STRETCHXEFFECT <spriteId> <scale>             - double;    skip if == 0.0
+  STRETCHYEFFECT <spriteId> <scale>             - double;    skip if == 0.0
+
+
+SCRIPT BLOCK
+------------
+SCRIPT
+<script content>
+SCRIPTEND
+
+Empty line written after SCRIPTEND block.
+
+
+MOVIE BLOCK STRUCTURE (movie mode only)
+-----------------------------------------
+MOVIE
+  ACTOR <id> <direction>
+    FRAME <frameId> <name1>,<name2>,...
+    FRAME <frameId> <name1>,...
+  ACTOREND
+
+  ACTOR <id> <direction>
+    ...
+  ACTOREND
+MOVIEEND
+
+Rules:
+- 2-space indent for ACTOR / ACTOREND
+- 4-space indent for FRAME lines
+- Blank line written between actors (not before the first one)
+- <direction> is one of: up, down, left, right
+- FRAME sprite names are comma-delimited, no spaces
+- Actor id is an int, direction is index 0-3
+
+
+ANIEND BLOCK STRUCTURE (sprite mode only)
+------------------------------------------
+Written per direction (1 or 4 depending on SINGLEDIRECTION).
+Each frame line is comma-separated sprite slots:
+  <ref> <x> <y>
+Where <ref> is:
+  - sprite id (int)
+  - PARAM#  (param reference)
+  - ATTR#   (attr reference)
+x and y are zero-padded to min 3 chars.
+Slots delimited by , with no spaces.
+
+Special keywords on frame lines:
+  WAIT <...>
+  PLAYSOUND <...>
+Followed by ANIEND to close the direction block.
+
+
+MODE TOGGLE BEHAVIOR
+--------------------
+-> Movie Mode:
+  1. Warn: "Switching to movie mode will remove all sprites. Continue?"
+  2. Clear sprite list
+  3. Set isMovieMode = true
+  4. Set frameCount = 100 (default)
+  5. Hide: Direction dropdown, sprite attribute controls
+  6. Show: Actor controls, actor combo box
+  7. Relabel: "Direction:" -> "Edit attributes:", "-> Movie Mode" -> "-> Sprite Mode"
+  8. Populate actor dropdown: "Actor 0", "Actor 1", ...
+
+-> Sprite Mode:
+  1. Warn: "Switching to sprite mode will remove all actors. Continue?"
+  2. Clear actor list
+  3. Set isMovieMode = false
+  4. Restore Direction dropdown and sprite controls
+  5. Relabel back
+
+
+DATA MODEL (JS)
+---------------
+{
+  isMovieMode: bool,
+  frameCount: int,          // FRAMES n (movie mode only, default 100)
+  looped: bool,
+  continuous: bool,
+  backColor: int|null,      // null = default (0x8000)
+  setBackTo: string,
+  defaultHead: string,
+  defaultBody: string,
+  defaultParams: string[9],
+  defaultAttrs: string[30],
+  sprites: [
+    {
+      id: int,
+      name: string,
+      x: int, y: int, w: int, h: int,
+      comment: string,
+      attachments: [{ parentId, childId, offsetX, offsetY, type: 0|1 }],
+      effects: {
+        color: [r,g,b,a]|null,
+        zoom: float|null,
+        effectMode: int|null,
+        rotate: float|null,
+        stretchX: float|null,
+        stretchY: float|null
+      }
+    }
+  ],
+  actors: [
+    {
+      id: int,
+      direction: 0|1|2|3,        // 0=up 1=down 2=left 3=right
+      frames: [
+        { frameId: int, sprites: [string] }
+      ]
+    }
+  ],
+  script: string,
+  aniFrames: [...]
+}
+
+
+KEY ADDRESSES (GraalShop.exe)
+------------------------------
+serializeGANI        - full GANI file writer
+FUN_00477eb8         - full GANI file parser/loader
+FUN_0048383c         - mode toggle (sprite <-> movie)
+FUN_00483cf8         - populate actor dropdown combo
+PTR_DAT_00487ff8     - direction string table [up, down, left, right]

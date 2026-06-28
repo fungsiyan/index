@@ -12,7 +12,8 @@
 • [Program Configs](<https://github.com/fungsiyan/configs>);\
 • [Indexing Guide (Photoshop/GIMP)](<https://gscript.dev/indexing>);**
 ## — 🛠️ Tools —
-**• [RC3 (Win, Light)](<https://gscript.dev/rc3_win_light.zip>), [Mirror](http://fp4.ca/windows_rc3_beta.zip) / [RC3 (Win, Dark)](<https://gscript.dev/rc3_win_dark.zip>);\
+**
+• [RC3 (Win, Light)](<https://gscript.dev/rc3_win_light.zip>), [Mirror](http://fp4.ca/windows_rc3_beta.zip) / [RC3 (Win, Dark)](<https://gscript.dev/rc3_win_dark.zip>);\
 • [RC3 (Mac, Light)](<https://gscript.dev/rc3_mac_light.zip>), [Mirror](<http://fp4.ca/RC.app.zip>) / [RC3 (Mac, Dark)](<https://gscript.dev/rc3_mac_dark.zip>);
 
 • [GS2 Emulator](<https://gs2.gscript.dev>);\
@@ -31,7 +32,8 @@
 > • [Linux (AppImage)](<https://gscript.dev/GraalSuite_amd64.AppImage>) | [Linux (deb)](<https://gscript.dev/GraalSuite_amd64.deb>) | [Linux (x64)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>);\
 > • [RPM](<https://gscript.dev/GraalSuite-1.x86_64.rpm>) | [MSI](<https://gscript.dev/GraalSuite_x64_en-US.msi>);
 
-• [2FA QR Fix](<https://greasyfork.org/en/scripts/571079-graal-online-2fa-qr-code-fix>) | [Mirror](<https://github.com/Denveous/graal-2fa-fix/raw/refs/heads/main/graal-2fa-fix.user.js>), [Source](<https://github.com/Denveous/graal-2fa-fix>)**
+• [2FA QR Fix](<https://greasyfork.org/en/scripts/571079-graal-online-2fa-qr-code-fix>) | [Mirror](<https://github.com/Denveous/graal-2fa-fix/raw/refs/heads/main/graal-2fa-fix.user.js>), [Source](<https://github.com/Denveous/graal-2fa-fix>);
+**
 ## — 🗜️ Tools Archive —
 **• [RC2 (Win, Light)](<https://gscript.dev/rc2_win_light.zip>) / [RC2 (Win, Dark)](<https://gscript.dev/rc2_win_dark.zip>);\
 • [RC2 (Linux, Light)](<https://gscript.dev/rc2_light.AppImage>) / [RC2 (Linux, Dark)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2];

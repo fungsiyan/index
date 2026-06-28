@@ -25,7 +25,7 @@
 • [Sublime HL (Denveous)](<https://github.com/Denveous/gscript-sublime-hl>);
 
 • [GSuite (Web)](<https://suite.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.GraalSuite>);\
-• [GSuite (App, Source)](<https://github.com/lukegrahamSydney/TilesEditor>):\
+• [GSuite (App, Source)](<https://github.com/lukegrahamSydney/TilesEditor>):
 > • [Win (Installer)](<https://gscript.dev/GraalSuite_x64-setup.exe>) | [Win (Portable)](<https://gscript.dev/GraalSuite.exe>) | [Win (x64)](<https://gscript.dev/TilesEditorRelease_win_x64.zip>);\
 > • [Mac (dmg)](<https://gscript.dev/GraalSuite_aarch64.dmg>) | [Mac (tar.gz)](<https://gscript.dev/GraalSuite_aarch64.app.tar.gz>);\
 > • [Linux (AppImage)](<https://gscript.dev/GraalSuite_amd64.AppImage>) | [Linux (deb)](<https://gscript.dev/GraalSuite_amd64.deb>) | [Linux (x64)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>);\
@@ -106,16 +106,16 @@ docker run -d -p 14900:14900 xtjoeytx/gserver-v2:latest \
 • [Highlight: NYN](<https://www.youtube.com/@newyorkernick/videos>);\
 • [Highlight: Robg](<https://www.youtube.com/@RobG-videos/videos>);**
 ## — ⚙️ Bot Commands —
-📖 **Available to All:**
-• `/scripthelp definition` - Get help for a specific definition
+📖 **Available to All:**\
+• `/scripthelp definition` - Get help for a specific definition\
 • `/scriptstats` - View script statistics
 
-🔧 **API Editor and Above:**
-• `/edit`, `/e` - Edit a definition
-• `/delete`, `/d` - Delete a definition
+🔧 **API Editor and Above:**\
+• `/edit`, `/e` - Edit a definition\
+• `/delete`, `/d` - Delete a definition\
 • `/create`, `/c` - Create a new definition
 
-🔧 **API Admin Only:**
-• `/pushchanges` - Git pushes the API definitions to github
-• `/pullchanges` - Git pulls the API definitions from github
+🔧 **API Admin Only:**\
+• `/pushchanges` - Git pushes the API definitions to github\
+• `/pullchanges` - Git pulls the API definitions from github\
 • `/backup` - Creates a backup of the API definitions

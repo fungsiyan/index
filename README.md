@@ -1,5 +1,5 @@
 
-# 💣 Graal Resources List 🏹
+# Graal Resources List
 ## — 📚 Documentation —
 **• [Graal Bible](<https://graalonline.net/Creation/Dev/GScript>), [Mirror](<https://wiki.gscript.dev/Creation/Dev/GScript>);\
 • [Gscript.dev](<https://gscript.dev/>), [Source](<https://github.com/MorenoLand/GScript.Web>);\
@@ -76,7 +76,8 @@ docker run -d -p 14900:14900 xtjoeytx/gserver-v2:latest \
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>);**
 
 **• [Graal (Archive)](<https://rttnpop.neocities.org/graal>);\
-• [Graal (Go)](<https://github.com/xl0g/Graal-Reborn>);**
+• [Graal (Go)](<https://github.com/xl0g/Graal-Reborn>);\
+• [Graal (Godot)](<https://github.com/MorenoLand/GScript.Godot-Example>);**
 ## — 🎥 Videos —
 **• [GS2: Tutorial](<https://www.youtube.com/playlist?list=PLGCNVthRlw5EHakguzfJe4E2N9HrMhCb4>);\
 • GS2: [Intro](<https://youtu.be/nOA0iOOaeQA>) & [Basics](<https://www.youtube.com/playlist?list=PLj7V7gCaCF2u-MrVyTn1c3ZN01BHKGq2m>);\

@@ -55,9 +55,10 @@
 • [API (Moreno)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>);\
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>);**
 
-**Server Implementation:**
+**• Server Implementation:**
 > **• [C++](<https://github.com/xtjoeytx/GServer-v2/releases>) | [Go](<https://github.com/MorenoLand/GScript.GServerGo>) | [Rust](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>) | [Python](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>);**
 **• [Package](<https://www.nuget.org/packages/Preagonal.Scripting.GS2Engine>) & [Launcher](<https://github.com/xtjoeytx/glauncher>) | [Compiler](<https://github.com/MorenoLand/Moreno.Ginstaller>);**
+
 
 **• Hosting (Docker):**
 ```

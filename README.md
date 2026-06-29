@@ -45,7 +45,7 @@
 > **• [ Win (x64)](<https://gscript.dev/gonstruct-win.zip>) | [Linux (x64)](<https://gscript.dev/gonstruct-linux-x64.zip>);**
 ## — 🪢 Hosting —
 **• [Account](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>);\
-• [Servers (Reborn)](<https://www.graalserver.com/servers.php>);**
+• [Servers (OpenGraal)](<https://www.graalserver.com/servers.php>);**
 
 **• [ReClients](<https://github.com/vinvicta/gsuite>);\
 • [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>);\

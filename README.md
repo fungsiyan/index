@@ -8,8 +8,8 @@
 • [Unity/Quattro3D Docs](<https://unity.gscript.dev>);\
 • [Server Statistics](<https://stats.gscript.dev>);**
 ## — 🎨 Assets —
-**• [Templates](<https://github.com/fungsiyan/assets/tree/main/templates>) & [Tiles](<https://github.com/fungsiyan/assets/tree/main/tiles>);\
-• [Program Configs](<https://github.com/fungsiyan/configs>);\
+**• [Templates](<https://github.com/fungsiyan/index/tree/main/assets/templates>) & [Tiles](<https://github.com/fungsiyan/index/tree/main/assets/tiles>);\
+• [Program Configs](<https://github.com/fungsiyan/index/tree/main/configs>);\
 • [Indexing Guide (Photoshop/GIMP)](<https://gscript.dev/indexing>);**
 ## — 🛠️ Tools —
 **• [RC3 (Win, Light)](<https://gscript.dev/rc3_win_light.zip>), [Mirror](http://fp4.ca/windows_rc3_beta.zip) / [RC3 (Win, Dark)](<https://gscript.dev/rc3_win_dark.zip>);\

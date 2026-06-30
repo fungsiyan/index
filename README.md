@@ -31,18 +31,19 @@
 > • [Linux (AppImage)](<https://gscript.dev/GraalSuite_amd64.AppImage>) | [Linux (deb)](<https://gscript.dev/GraalSuite_amd64.deb>) | [Linux (x64)](<https://gscript.dev/TilesEditorRelease_linux_x64.zip>);\
 > • [RPM](<https://gscript.dev/GraalSuite-1.x86_64.rpm>) | [MSI](<https://gscript.dev/GraalSuite_x64_en-US.msi>);**
 
-**• [2FA QR Fix](<https://greasyfork.org/en/scripts/571079-graal-online-2fa-qr-code-fix>) | [Mirror](<https://github.com/Denveous/graal-2fa-fix/raw/refs/heads/main/graal-2fa-fix.user.js>), [Source](<https://github.com/Denveous/graal-2fa-fix>);**
+**• [2FA QR Fix](<https://greasyfork.org/en/scripts/571079-graal-online-2fa-qr-code-fix>), [Source](<https://github.com/Denveous/graal-2fa-fix>);**
 ## — 🗜️ Tools Archive —
 **• [RC2 (Win, Light)](<https://gscript.dev/rc2_win_light.zip>) / [RC2 (Win, Dark)](<https://gscript.dev/rc2_win_dark.zip>);\
 • [RC2 (Linux, Light)](<https://gscript.dev/rc2_light.AppImage>) / [RC2 (Linux, Dark)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2];**
 
 **• [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>);\
-• [VSCode LSP (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>);**
+• [VSCode LSP (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>);
+• [Sublime LSP (Denveous)](<https://github.com/MorenoLand/Moreno.SublimeLSP>);**
 
 **• [Geditor (Web; β) (Pluto)](<https://geditor.net/>);\
 • [Tiles Editor (Web) (Mem)](<https://sleepyeepy.cloud/tiles-editor/>);\
-• [Gonstruct (Source) (Fry)](<https://github.com/fry/graal-gonstruct>):**
-> **• [ Win (x64)](<https://gscript.dev/gonstruct-win.zip>) | [Linux (x64)](<https://gscript.dev/gonstruct-linux-x64.zip>);**
+• [Gonstruct (Source)](<https://github.com/fry/graal-gonstruct>):**
+> **• [Win (x64)](<https://gscript.dev/gonstruct-win.zip>) | [Linux (x64)](<https://gscript.dev/gonstruct-linux-x64.zip>);**
 ## — 🪢 Hosting —
 **• [Account](<https://graalserver.com/accountcreator.php>) & [Settings](<https://www.graalserver.com/user/settings>);\
 • [Servers (OpenGraal)](<https://www.graalserver.com/servers.php>);**
@@ -56,7 +57,7 @@
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>);**
 
 **• Server Implementation:**
-> **• [C++](<https://github.com/xtjoeytx/GServer-v2/releases>) | [Go](<https://github.com/MorenoLand/GScript.GServerGo>) | [Rust](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>) | [Python](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>) & [Protocol](<https://github.com/hosler/pyOpenGraal>);\
+> **• [C++](<https://github.com/xtjoeytx/GServer-v2/releases>) | [Go](<https://github.com/MorenoLand/GScript.GServerGo>) | [Rust](<https://github.com/vinvicta/gserver-rs>), [Client](<https://github.com/Preagonal/preagonal-client-rs>) | [Python](<https://github.com/hosler/pygserver>), [Client](<https://github.com/hosler/pyReborn>);\
 > • [Package](<https://www.nuget.org/packages/Preagonal.Scripting.GS2Engine>) & [Launcher](<https://github.com/xtjoeytx/glauncher>) | [Compiler](<https://github.com/MorenoLand/Moreno.Ginstaller>);**
 
 **• Hosting (Docker):**
@@ -75,9 +76,8 @@ docker run -d -p 14900:14900 xtjoeytx/gserver-v2:latest \
 **• [Gs2BT (Rust)](<https://github.com/Preagonal/gbf-rs>) & [GsBT (Python)](<https://github.com/vinvicta/gs1_bytecode_toolkit>);\
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>);**
 
-**• [Graal (Archive)](<https://rttnpop.neocities.org/graal>);\
-• [Graal (Godot)](<https://github.com/MorenoLand/GScript.Godot-Example>);\
-• [Graal (Go)](<https://github.com/xl0g/Graal-Reborn>);**
+**• Preservation:**
+> **• [Graal (Archive)](<https://rttnpop.neocities.org/graal>) | [Graal (Godot)](<https://github.com/MorenoLand/GScript.Godot-Example>) | [Graal (Go)](<https://github.com/xl0g/Graal-Reborn>);**
 ## — 🎥 Videos —
 **• [GS2: Tutorial](<https://www.youtube.com/playlist?list=PLGCNVthRlw5EHakguzfJe4E2N9HrMhCb4>);\
 • GS2: [Intro](<https://youtu.be/nOA0iOOaeQA>) & [Basics](<https://www.youtube.com/playlist?list=PLj7V7gCaCF2u-MrVyTn1c3ZN01BHKGq2m>);\

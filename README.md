@@ -52,7 +52,7 @@
 • [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>);\
 • [GS2 Parser](<https://github.com/xtjoeytx/gs2-parser>);**
 
-**• [Graal Formats](<[https://github.com/MorenoLand/GScript.GCLib](https://gscript.dev/?formats)>);
+**• [Graal Formats](<https://gscript.dev/?formats>);\
 • [GCLib](<https://github.com/MorenoLand/GScript.GCLib>) & [GRCLib](<https://github.com/MorenoLand/GScript.GRClib>);\
 • [API (Moreno)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>);\
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>);**

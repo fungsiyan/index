@@ -77,7 +77,7 @@ docker run -d -p 14900:14900 xtjoeytx/gserver-v2:latest \
 • [Plugin (HxD)](<https://github.com/Preagonal/HxDGraal>);**
 
 **• Preservation:**
-> **• [Graal (Archive)](<https://rttnpop.neocities.org/graal>) | [Graal (Godot)](<https://github.com/MorenoLand/GScript.Godot-Example>) | [Graal (Go)](<https://github.com/xl0g/Graal-Reborn>);**
+> **• [Archive](<https://rttnpop.neocities.org/graal>) | [Godot](<https://github.com/MorenoLand/GScript.Godot-Example>) | [Go](<https://github.com/xl0g/Graal-Reborn>);**
 ## — 🎥 Videos —
 **• [GS2: Tutorial](<https://www.youtube.com/playlist?list=PLGCNVthRlw5EHakguzfJe4E2N9HrMhCb4>);\
 • GS2: [Intro](<https://youtu.be/nOA0iOOaeQA>) & [Basics](<https://www.youtube.com/playlist?list=PLj7V7gCaCF2u-MrVyTn1c3ZN01BHKGq2m>);\

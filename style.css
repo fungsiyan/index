@@ -1,0 +1,46 @@
+/* Typography */
+@font-face {
+    font-family: 'Tempus Sans ITC';
+    src: url('https://gscript.dev/fonts/tempus-sans-itc.ttf');
+}
+
+/* Composing */
+body {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Tempus Sans ITC";
+}
+nav  { margin-left: 30px; }
+h3   { font-size: 24px; margin-bottom: 10px; }
+.subtitle  { font-size: 16px; }
+.container {
+    color: #fff;
+    background-color: #2f303d;
+    font-family: "Arial";
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 12px;
+}
+.container br {
+    margin-bottom: 8px;
+}
+
+/* Listing */
+ul {
+    list-style-type: "•";
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+li        { margin-bottom: 8px; }
+li:before { content: ""; padding-right: 5px; }
+
+/* Highlighting */
+a:link    { color: #95ba97; transition: color 0.3s ease;}
+a:visited { color: #5d9660; transition: color 0.3s ease;}
+a:active  { color: #435b44; }
+          .subtitle a       { color: inherit; text-decoration: none; }
+a:hover,  .subtitle a:hover { color: #446a46; }

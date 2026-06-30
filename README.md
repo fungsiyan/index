@@ -37,7 +37,7 @@
 • [RC2 (Linux, Light)](<https://gscript.dev/rc2_light.AppImage>) / [RC2 (Linux, Dark)](<https://gscript.dev/rc2_dark.AppImage>) [needs libfuse2];**
 
 **• [GS2 Beautifier (fp4)](<https://www.fp4.ca/gs2beautifier>);\
-• [VSCode LSP (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>);
+• [VSCode LSP (Ruan)](<https://marketplace.visualstudio.com/items?itemName=ruanfernandes.graalscript-lsp>);\
 • [Sublime LSP (Denveous)](<https://github.com/MorenoLand/Moreno.SublimeLSP>);**
 
 **• [Geditor (Web; β) (Pluto)](<https://geditor.net/>);\

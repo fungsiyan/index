@@ -10,13 +10,13 @@
 ## — 🎨 Assets —
 **• [Templates](<https://github.com/fungsiyan/index/tree/main/assets/templates>) & [Tiles](<https://github.com/fungsiyan/index/tree/main/assets/tiles>);\
 • [Program Configs](<https://github.com/fungsiyan/index/tree/main/configs>);\
-• [Indexing Guide (Photoshop/GIMP)](<https://gscript.dev/indexing>);**
+• [Indexing Guide (Photoshop/GIMP)](<https://gscript.dev/?indexing>);**
 ## — 🛠️ Tools —
 **• [RC3 (Win, Light)](<https://gscript.dev/rc3_win_light.zip>), [Mirror](http://fp4.ca/windows_rc3_beta.zip) / [RC3 (Win, Dark)](<https://gscript.dev/rc3_win_dark.zip>);\
 • [RC3 (Mac, Light)](<https://gscript.dev/rc3_mac_light.zip>), [Mirror](<http://fp4.ca/RC.app.zip>) / [RC3 (Mac, Dark)](<https://gscript.dev/rc3_mac_dark.zip>);**
 
 **• [GS2 Emulator](<https://gs2.gscript.dev>);\
-• [GS2 Beautifier](<https://gscript.dev/beautify>);\
+• [GS2 Beautifier](<https://gscript.dev/?beautify>);\
 • [GScript Pastebin](<https://paste.gscript.dev>);**
 
 **• [GS2 API](<https://api.gscript.dev>), [Source](<https://github.com/MorenoLand/GScript.APIData>);\
@@ -52,7 +52,8 @@
 • [OGRC](<https://files.preagonal.net/public>) + [RC Patcher](<https://github.com/MorenoLand/Preagonal.RCPatcher>);\
 • [GS2 Parser](<https://github.com/xtjoeytx/gs2-parser>);**
 
-**• [GCLib](<https://github.com/MorenoLand/GScript.GCLib>) & [GRCLib](<https://github.com/MorenoLand/GScript.GRClib>);\
+**• [Graal Formats](<[https://github.com/MorenoLand/GScript.GCLib](https://gscript.dev/?formats)>);
+• [GCLib](<https://github.com/MorenoLand/GScript.GCLib>) & [GRCLib](<https://github.com/MorenoLand/GScript.GRClib>);\
 • [API (Moreno)](<https://api.moreno.land/swagger/index.html>) & [API (Preagonal)](<https://api.graalserver.com/swagger/index.html>);\
 • [ReServer Protocol](<https://github.com/hosler/reborn-protocol>) & [Docs](<https://reborn-protocol-docs.readthedocs.io>), [Source](<https://github.com/hosler/reborn-protocol-docs>);**
 
